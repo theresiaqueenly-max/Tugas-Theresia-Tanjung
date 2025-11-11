@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "3b735d95-7fcd-46cf-bc80-0884afb6365b",
+		"name": "tugas6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49786819",
+		"_collection_link": "https://theresiaqueenly-9121500.postman.co/workspace/Theresia-Saptha-Tanjung's-Works~0bb08d3e-c3dc-4c66-851a-5e6fa54f657a/collection/49786819-3b735d95-7fcd-46cf-bc80-0884afb6365b?action=share&source=collection_link&creator=49786819"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Laptop\",\r\n  \"price\": 8500000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
